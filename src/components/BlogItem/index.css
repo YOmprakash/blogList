@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+}
+.description {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+
+  font-size: 14px;
+}
+.text-container {
+  display: felx;
+  align-items: center;
+}
+.date {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+
+  font-size: 14px;
+}
+.line {
+  border: 1px #9aa5b1 solid;
+  width: 100%;
+}
